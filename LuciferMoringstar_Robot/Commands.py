@@ -93,7 +93,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♻️ Join Group ♻️, url='t.me/SS07MOVIEHUT')
+                        InlineKeyboardButton('♻️ Join Group ♻️', url='t.me/SS07MOVIEHUT')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
