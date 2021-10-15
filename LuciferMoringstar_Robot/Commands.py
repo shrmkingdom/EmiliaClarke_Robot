@@ -1,4 +1,6 @@
 import os
+import time
+import random
 import logging
 from pyrogram import Client, filters
 from pyrogram import StopPropagation
@@ -11,6 +13,13 @@ from LuciferMoringstar_Robot.Channel import handle_user_status
 from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
+
+PHOTO = [
+    "https://telegra.ph/file/0795a04c5b1b65bb21272.jpg",
+    "https://telegra.ph/file/92686792a972794193f73.jpg",
+    "https://telegra.ph/file/949027f1aa23e9d294c45.jpg",
+    "https://telegra.ph/file/b92c4acf5ba8e99f54ac6.jpg"
+]
 
 LOG_CHANNEL = BROADCAST_CHANNEL
 
@@ -84,7 +93,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ Deploy Now 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('♻️ Join Group ♻️, url='t.me/SS07MOVIEHUT')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -112,8 +121,9 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_text(
-            START_MSG.format(message.from_user.mention),
+        await message.reply_photo(
+            photo=f"{random.choice(PHOTO)}"
+            caption=START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -125,7 +135,7 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "🤖More Botz", url="https://t.me/MT_Botz"
+                                "🔆 Main Channel🔆", url="https://t.me/SS7MOVIEHUT"
                             )
                     ],
                     [
