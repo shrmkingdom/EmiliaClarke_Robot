@@ -139,11 +139,11 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton
                             (
-                                "🤔Help", callback_data="help"
+                                "⚙Help", callback_data="help"
                             ),
                         InlineKeyboardButton
                             (
-                                "About🤠", callback_data="about"
+                                "About😎", callback_data="about"
                             )
                     ]
                 ]
