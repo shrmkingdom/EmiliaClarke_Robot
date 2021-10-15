@@ -27,9 +27,9 @@ HELP = """
 ➥ /logger  Get Logs
 ➥ /delete Delete File From Database
 
-<b>➡️YO YO I AM POWERFUL
+<b>➡️YO YO I AM POWERFULL
 
-@SS07MOVIEHUT></b>
+@SS07MOVIEHUT </b>
 """
 
 ABOUT = """
@@ -37,5 +37,5 @@ ABOUT = """
 ➥ Admin : [_adx_black_hat_](t.me/the_hellcat_10)
 ➥ Language : Python3
 ➥ Library : Pyrogram Asyncio 1.13.0
-➥ Source Code : You Can It Easily. A Open Source Bot
+➥ Source Code : You Can Find It Easily. A Open Source Bot
 """
