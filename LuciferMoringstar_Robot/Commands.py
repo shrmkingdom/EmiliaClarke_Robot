@@ -15,10 +15,14 @@ from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
 PHOTO = [
-    "https://telegra.ph/file/0795a04c5b1b65bb21272.jpg",
-    "https://telegra.ph/file/92686792a972794193f73.jpg",
-    "https://telegra.ph/file/949027f1aa23e9d294c45.jpg",
-    "https://telegra.ph/file/b92c4acf5ba8e99f54ac6.jpg"
+    "https://telegra.ph/file/5088210dd1792ee4e37bc.jpg",
+    "https://telegra.ph/file/789c887f1c19093790252.jpg",
+    "https://telegra.ph/file/141e880ec1952d1e5cbd5.jpg",
+    "https://telegra.ph/file/98da598a51680b6792843.jpg",
+    "https://telegra.ph/file/dc3f5fb073507cb0b08c2.jpg",
+    "https://telegra.ph/file/5c6b05f25a7b68d759fb5.jpg",
+    "https://telegra.ph/file/419f21fe96a95ee39af56.jpg",
+    "https://telegra.ph/file/9e66a8232d6c87df2b857.jpg"
 ]
 
 LOG_CHANNEL = BROADCAST_CHANNEL
