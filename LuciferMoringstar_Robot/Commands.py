@@ -22,7 +22,8 @@ PHOTO = [
     "https://telegra.ph/file/96c9824b9d7828cddae70.jpg",
     "https://telegra.ph/file/98faefd71d777c0ccfb5c.jpg",
     "https://telegra.ph/file/d632120978dfce7cec37c.jpg",
-    "https://telegra.ph/file/9e66a8232d6c87df2b857.jpg"
+    "https://telegra.ph/file/86d7c223221bef090fdf7.jpg",
+    "https://telegra.ph/file/1a78685cfc5666d501d3a.jpg"
 ]
 
 LOG_CHANNEL = BROADCAST_CHANNEL
