@@ -16,12 +16,12 @@ logger = logging.getLogger(__name__)
 
 PHOTO = [
     "https://telegra.ph/file/5088210dd1792ee4e37bc.jpg",
-    "https://telegra.ph/file/789c887f1c19093790252.jpg",
-    "https://telegra.ph/file/141e880ec1952d1e5cbd5.jpg",
-    "https://telegra.ph/file/98da598a51680b6792843.jpg",
-    "https://telegra.ph/file/dc3f5fb073507cb0b08c2.jpg",
-    "https://telegra.ph/file/5c6b05f25a7b68d759fb5.jpg",
-    "https://telegra.ph/file/419f21fe96a95ee39af56.jpg",
+    "https://telegra.ph/file/85f3da8ac9d423eb3f2bf.jpg",
+    "https://telegra.ph/file/ad34a4b49ea33cf7b326d.jpg",
+    "https://telegra.ph/file/59a59eada8d0688a6a30a.jpg",
+    "https://telegra.ph/file/96c9824b9d7828cddae70.jpg",
+    "https://telegra.ph/file/98faefd71d777c0ccfb5c.jpg",
+    "https://telegra.ph/file/d632120978dfce7cec37c.jpg",
     "https://telegra.ph/file/9e66a8232d6c87df2b857.jpg"
 ]
 
