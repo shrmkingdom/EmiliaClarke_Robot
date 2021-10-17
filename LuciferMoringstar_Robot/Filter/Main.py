@@ -66,7 +66,15 @@ async def filter(client, message):
             await client.send_photo(
             chat_id = message.chat.id,
             photo="https://telegra.ph/file/7df87dc1504e251d084de.jpg",
- caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക or Admins will add it Soon 🔜🥺</b>",)
+ caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക or Admins will add it Soon 🔜🥺</b>",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("📞 Contact Admin", url='t.me/the_hellcat_10')
+                    ]
+                ]
+            )
+        )
             return
 
         if not btn:
