@@ -128,7 +128,7 @@ async def start(bot, message):
     else:
         await message.reply_photo(
             photo=f"{random.choice(PHOTO)}",
-            caption=START_MSG, 
+            caption=START_MSG.format(f"[Hi{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id}"), 
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
