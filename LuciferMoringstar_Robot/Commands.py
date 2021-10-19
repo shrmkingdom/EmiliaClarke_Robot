@@ -150,7 +150,9 @@ async def start(bot, message):
                             (
                                 "About😎", callback_data="about"
                             )
-                    ]
+                    ], 
+                    [
+                      InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/adx_army1_bot?startgroup=ture") 
                 ]
             )
         )
