@@ -134,11 +134,11 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton
                             (
-                                "🔎Search Here", switch_inline_query_current_chat=''
+                                "Search Here", switch_inline_query_current_chat=''
                             ),
                         InlineKeyboardButton
                             (
-                                "🔆 Main Channel🔆", url="https://t.me/SS7MOVIEHUT"
+                                "Channel 🔰", url="https://t.me/SS7MOVIEHUT"
                             )
                     ],
                     [
