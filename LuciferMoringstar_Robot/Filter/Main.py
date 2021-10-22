@@ -71,6 +71,8 @@ async def filter(client, message):
                 [
                     [
                         InlineKeyboardButton("📞 Contact Admin", url='t.me/the_hellcat_10')
+                    ][
+                        InlineKeyboardButton("Close🔐", callback_data="close")
                     ]
                 ]
             )
