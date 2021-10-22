@@ -369,7 +369,3 @@ async def bot_info(bot, message):
         ]
     ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-@Client.on_callback_query()
-async def cb_data(bot, update):
-    if update.data == "close":
-        await update.message.delete()
