@@ -147,6 +147,13 @@ async def group(client, message):
             caption="<b>Couldn't Find This Movie.Try Again..! Check The Spelling Is Correct.\n Or  🙏Please Check That Other Bots Will Provided The Movie That You Request.\n Or  Admins will add it Soon 🔜🥺</b>",
             parse_mode="html",
             reply_to_message_id=message.message_id
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("📞 Contact Admin", url='t.me/the_hellcat_10')
+                    ]
+                ]
+            )
         )
             return
         if not btn:
