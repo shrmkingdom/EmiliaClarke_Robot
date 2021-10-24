@@ -141,6 +141,17 @@ async def group(client, message):
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
+            LuciferMoringstar=await client.send_photo(
+            chat_id = message.chat.id,
+            photo="https://telegra.ph/file/7df87dc1504e251d084de.jpg",
+ caption="<b>Couldn't Find This Movie.Try Again..! Check The Spelling Is Correct . 
+
+Or  🙏Please Check That Other Bots Will Provided The Movie That You Request
+
+ Or  Admins will add it Soon 🔜🥺</b>",
+            parse_mode="html",
+            reply_to_message_id=message.message_id
+        )
             return
         if not btn:
             return
