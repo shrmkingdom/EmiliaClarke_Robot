@@ -98,7 +98,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♻️ Join Group ♻️', url='t.me/SS07MOVIEHUT')
+                        InlineKeyboardButton('♻️ Join Group ♻️', url='https://t.me/SHRMKINGDOM')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -138,9 +138,10 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "Channel 🔰", url="https://t.me/SS7MOVIEHUT"
+                                "Channel 🔰", url="https://t.me/SHRMKINGDOM6669M"
                             )
                     ],
+
                     [
                         InlineKeyboardButton
                             (
@@ -364,7 +365,7 @@ async def bot_info(bot, message):
         [
             InlineKeyboardButton
                 (
-                     '♻️ GROUP ♻️', url='t.me/SS07MOVIEHUT'
+                     '♻️ GROUP ♻️', url='https://t.me/SHRMKINGDOM'
                 )
         ]
     ]
