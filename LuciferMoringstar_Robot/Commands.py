@@ -18,12 +18,8 @@ PHOTO = [
     "https://telegra.ph/file/5088210dd1792ee4e37bc.jpg",
     "https://telegra.ph/file/85f3da8ac9d423eb3f2bf.jpg",
     "https://telegra.ph/file/ad34a4b49ea33cf7b326d.jpg",
-    "https://telegra.ph/file/59a59eada8d0688a6a30a.jpg",
-    "https://telegra.ph/file/96c9824b9d7828cddae70.jpg",
-    "https://telegra.ph/file/98faefd71d777c0ccfb5c.jpg",
-    "https://telegra.ph/file/d632120978dfce7cec37c.jpg",
-    "https://telegra.ph/file/86d7c223221bef090fdf7.jpg",
-    "https://telegra.ph/file/1a78685cfc5666d501d3a.jpg"
+    "tg://openmessage?user_id=2015593907&message_id=12465",
+ 
 ]
 
 LOG_CHANNEL = BROADCAST_CHANNEL
@@ -153,7 +149,7 @@ async def start(bot, message):
                             )
                     ], 
                     [
-                      InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/adx_army1_bot?startgroup=ture") 
+                      InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Shrm_Slave_Bot?startgroup=ture") 
                     ]
                 ]
             )
