@@ -15,10 +15,10 @@ from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
 PHOTO = [
-    "https://telegra.ph/file/5088210dd1792ee4e37bc.jpg",
-    "https://telegra.ph/file/85f3da8ac9d423eb3f2bf.jpg",
-    "https://telegra.ph/file/ad34a4b49ea33cf7b326d.jpg",
-    "tg://openmessage?user_id=2015593907&message_id=12465",
+    "https://telegra.ph/file/381bf2809eae9622ee4b6.jpg",
+    "https://telegra.ph/file/f09db8a480b3f89a84dee.jpg",
+    "https://telegra.ph/file/f02abf08ed68e06f193f1.jpg",
+    "https://telegra.ph/file/a5fc6293f7daf10ed9c04.jpg",
  
 ]
 
