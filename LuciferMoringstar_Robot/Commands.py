@@ -134,11 +134,11 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "Channel 🔰", url="https://t.me/SHRMKINGDOM6669M"
+                                "Channel 🔰", url="https://t.me/SHRMKINGDOM6669MOVIES"
                             )
                     ],
 
-                    [
+                    
                         InlineKeyboardButton
                             (
                                 "⚙Help", callback_data="help"
